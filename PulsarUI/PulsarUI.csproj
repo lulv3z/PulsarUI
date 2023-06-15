@@ -44,10 +44,39 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controles\PulsarUIControleButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controles\PulsarUILabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controles\PulsarUIButton.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\close_win10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\close_win10_color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\maximize_win10_color.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="img\minimize_win10_color.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
