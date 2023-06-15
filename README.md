@@ -69,9 +69,9 @@
 
 - [X] Buttons
   - [X] Normal Button
-  - [X] Controle Button
+  - [ ] Controle Button
   - [ ] Image Button
-- [X] Label
+- [ ] Label
 - [ ] Form
 - [ ] CheckBox
 - [ ] Progressbar
