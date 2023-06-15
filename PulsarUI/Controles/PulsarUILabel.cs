@@ -10,11 +10,16 @@ namespace PulsarUI.Controles
 {
     public class PulsarUILabel : Label
     {
-
-        public PulsarUILabel() 
+        // Konstruktor der PulsarUILabel-Klasse
+        public PulsarUILabel()
         {
+            // Setze den Text des Labels auf "PulsarUI Label"
             this.Text = "PulsarUI Label";
+
+            // Setze die Hintergrundfarbe des Labels auf transparent
             this.BackColor = Color.Transparent;
+
+            // Setze die Vordergrundfarbe des Labels auf Schwarz
             this.ForeColor = Color.Black;
         }
     }
